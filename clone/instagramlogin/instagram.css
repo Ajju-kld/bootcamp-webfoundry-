@@ -1,0 +1,213 @@
+* {
+    margin: 0;
+    scroll-behavior: smooth;
+    overflow: visible;
+    background-color: #fafafa;
+}
+
+.main_box {
+    position: fixed;
+    background-color: #ffffff;
+    width: 20%;
+    height: 49%;
+    top: 2%;
+    border: solid 1px;
+    border-color: #dbdbdb;
+    left: 52%;
+    overflow: hidden;
+    margin-left: -200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px;
+}
+
+.main_box .username {
+    background-color: #fafafa;
+    width: 18%;
+    height: 4.89%;
+    top: 20%;
+    overflow: hidden;
+    position: fixed;
+    left: 40.5%;
+    border-radius: 3px;
+    align-items: center;
+    color: #2c2727;
+    border: solid #dbdbdb 1px;
+    font-variant: initial;
+    justify-content: center;
+}
+
+.main_box .password {
+    background-color: #fafafa;
+    width: 18%;
+    height: 4.89%;
+    justify-content: center;
+    top: 27%;
+    overflow: hidden;
+    font-variant: initial;
+    position: fixed;
+    color: #2c2727;
+    border: solid #dbdbdb 1px;
+    left: 40.5%;
+    border-radius: 3px;
+    align-items: center;
+}
+
+.main_box button {
+    right: 41.25%;
+    background-color: #0095f6;
+    opacity: inherit;
+    top: 35%;
+    opacity: 0.3;
+    overflow: hidden;
+    align-items: center;
+    position: fixed;
+    width: 249.5px;
+    height: 29px;
+    border: none;
+    border-radius: 3px;
+    color: white;
+    font-weight: bold;
+}
+
+.main_box button:hover {
+    right: 41.25%;
+    background-color: #0095f6;
+    opacity: inherit;
+    top: 35%;
+    opacity: 1;
+    overflow: hidden;
+    align-items: center;
+    position: fixed;
+    width: 249.5px;
+    height: 29px;
+    border: none;
+    border-radius: 3px;
+    color: white;
+    font-weight: bold;
+}
+
+.logo {
+    width: 13.7%;
+    right: 43.75%;
+    position: fixed;
+    top: 5%;
+    background-color: transparent;
+    height: 11%;
+}
+
+.right {
+    border-top: solid #dbdbdb 1px;
+    width: 18%;
+    position: absolute;
+    left: 40.75%;
+    top: 44%;
+    align-items: center;
+}
+
+.left {
+    margin: 0;
+    padding-top: 0;
+    padding-left: 19px;
+    padding-right: 19px;
+    color: #a09090;
+    background-color: white;
+    font-size: 12px;
+    width: 1%;
+    position: absolute;
+    left: 48.2%;
+    top: 43%;
+}
+
+.facebook {
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    height: 9%;
+    width: 15%;
+    top: 49.5%;
+    left: 44%;
+    background-color: #ffffff;
+}
+
+.facebook .facebook-logo {
+    padding-right: 7px;
+    width: 18px;
+    height: 18px;
+}
+
+.forgot {
+    left: 47%;
+    top: 55%;
+    font-size: 13.4px;
+    font-weight: 9;
+    position: absolute;
+    color: #00376b;
+    background-color: transparent;
+}
+
+.footer {
+    padding-left: 62px;
+    padding-top: 20px;
+    width: 19.80%;
+    height: 7%;
+    border: #dbdbdb solid 1px;
+    background-color: white;
+    top: 63%;
+    left: 37.3%;
+    position: absolute;
+    color: #312828;
+}
+
+.app {
+    top: 76%;
+    position: absolute;
+    left: 47%;
+}
+
+.apple {
+    position: absolute;
+    left: 39%;
+    bottom: 12%;
+    width: 9rem;
+}
+
+.play {
+    position: absolute;
+    left: 50%;
+    bottom: 12%;
+    width: 9rem;
+}
+
+.bottom-text {
+    position: fixed;
+    bottom: 8%;
+    word-spacing: 18.5px;
+    left: 27%;
+    font-size: 12px;
+    color: #747983;
+}
+
+.last-word {
+    position: fixed;
+    bottom: 3%;
+    left: 42%;
+    font-size: 12px;
+    color: #747983;
+}
+
+.copyright {
+    position: fixed;
+    bottom: 3%;
+    left: 46.5%;
+    font-size: 12px;
+    color: #747983;
+}
+
+body[data-theme="dark"] {
+    --background-color: #161414;
+   --margin: 0;
+   --text-color:white;
+    
+}
