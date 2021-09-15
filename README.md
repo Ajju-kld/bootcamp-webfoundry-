@@ -1,3 +1,3 @@
 # bootcamp-webfoundry-
 
-this repository is about the project done during bootcamp on webfoundry about html,css,java.
+this repository is about the project done during bootcamp on webfoundry about html,css,javascript.
